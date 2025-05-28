@@ -14,6 +14,8 @@ name = "javascript"
     "nodejs",
     "browser"
   ]
+  dialect = "flow"
 
-[[transformers]]
-name = "standardjs"
+
+
+
