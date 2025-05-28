@@ -1,7 +1,9 @@
 version = 1
 
 test_patterns = [
-  "include_patterns = [\"src/**/*.ts\", \"tests/**/*.ts\"]"
+  " \"test/**\",",
+  "  \"integration_tests/tests_*.ts\",",
+  "  \"**/*_test.ts\""
 ]
 
 [[analyzers]]
