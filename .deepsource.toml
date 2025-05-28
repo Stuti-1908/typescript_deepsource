@@ -1,9 +1,9 @@
 version = 1
 
 test_patterns = [
-  " \"test/**\",",
-  "  \"integration_tests/tests_*.ts\",",
-  "  \"**/*_test.ts\""
+  "\"test/**\",",
+  "\"integration_tests/tests_*.ts\",",
+  "\"**/*_test.ts\""
 ]
 
 [[analyzers]]
@@ -14,3 +14,6 @@ name = "javascript"
     "nodejs",
     "browser"
   ]
+
+[[transformers]]
+name = "standardjs"
